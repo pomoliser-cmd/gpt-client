@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "com.nisska.gptclient.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MouseHandlerMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
