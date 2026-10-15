@@ -1,0 +1,7 @@
+{
+  "category.gptclient": "GPT Client",
+  "key.gptclient.fullbright": "Toggle Fullbright",
+  "key.gptclient.hud": "Toggle Custom HUD",
+  "key.gptclient.performance": "Toggle Performance Mode",
+  "key.gptclient.zoom": "Zoom (hold)"
+}
