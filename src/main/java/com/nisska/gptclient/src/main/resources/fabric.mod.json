@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "gptclient",
+  "version": "${version}",
+  "name": "GPT Client",
+  "description": "A lightweight utility client for Minecraft Java 26.3: fullbright, zoom, HUD, keystrokes, CPS, branding, and simple performance options.",
+  "authors": ["Nisska"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.nisska.gptclient.GptClient"]
+  },
+  "mixins": ["gptclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
